@@ -19,9 +19,9 @@ email: ["Carpentries@si.edu"]    # boxed, comma-separated list of contact email 
 collaborative_notes: https://pad.carpentries.org/2022-03-30-Smithsonian-online
 collaborative_notes: https://pad.carpentries.org/2022-03-31-Smithsonian-online
 collaborative_notes: https://pad.carpentries.org/2022-04-06-Smithsonian-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite1: 295475514217         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-eventbrite2: 295287160847         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-eventbrite3: 295484220257         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite1: 295475514217  # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite2: 295287160847 
+eventbrite3: 295484220257
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -73,7 +73,10 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-
+  {% comment %}
+  <p>This workshop has unfortunately sold out. We will notify people on the waitlist if new slots open up.
+You can also go to https://datascience.si.edu/carpentries and click the “Sign up for the Carpentries-announce mailing list” button to be alerted when future Smithsonian Carpentries workshops are announced.</p> 
+{% endcomment %}
 
 {% if page.eventbrite1 %}
 
@@ -112,7 +115,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 
 {% endif %}
-
 
 
 <h2 id="general">General Information</h2>
