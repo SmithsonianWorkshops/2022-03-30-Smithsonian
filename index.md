@@ -73,10 +73,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-  {% comment %}
-  <p>This workshop has unfortunately sold out. We will notify people on the waitlist if new slots open up.
-You can also go to https://datascience.si.edu/carpentries and click the “Sign up for the Carpentries-announce mailing list” button to be alerted when future Smithsonian Carpentries workshops are announced.</p> 
-{% endcomment %}
+
 
 {% if page.eventbrite1 %}
 
