@@ -69,11 +69,11 @@ This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
-
+{% endcomment %}
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-{% endcomment %}
+
 
 {% if page.eventbrite1 %}
 
