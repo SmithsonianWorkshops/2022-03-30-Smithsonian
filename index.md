@@ -13,8 +13,8 @@ humandate: "March 30,31, April 6,7 2022"    # human-readable dates for the works
 humantime: "1:00pm - 4:00pm EDT (UTC-4)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-03-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-04-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["instructor one", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Crystal Sanchez", "Luis Villanueva", "Paula Pappalardo", "Maddy Bursell", "Jennifer Spillane", "Richie Hodel", "Mike Trizna"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Maddy Bursell", "Adam Mansur", "Luis Villanueva", "Crystal Sanchez", "Jennifer Spillane"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Carpentries@si.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2022-03-30-Smithsonian-online
 collaborative_notes: https://pad.carpentries.org/2022-03-31-Smithsonian-online
